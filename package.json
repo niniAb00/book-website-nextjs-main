@@ -1,0 +1,28 @@
+{
+  "name": "book-website-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "framer-motion": "^11.0.8",
+    "next": "13.5.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-toastify": "^10.0.4",
+    "reactjs-editor": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "typescript": "^5"
+  }
+}
