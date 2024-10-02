@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 export default function Header() {
   return (
@@ -10,7 +9,7 @@ export default function Header() {
         initial={{ opacity: 0, x: -1000 }}
         animate={{ opacity: 1, x: 0 }}
       >
-        <h1 style={bookTitleStyle}>Book App</h1>
+        <h1 className="fff">Book App</h1>
       </motion.div>
     </header>
   );
@@ -19,9 +18,4 @@ export default function Header() {
 const headerStyle = {
   padding: "1rem 1re 1rem 0",
   color: "#fff",
-};
-
-const bookTitleStyle = {
-  color: "#000",
-  textAlign: "center",
 };
